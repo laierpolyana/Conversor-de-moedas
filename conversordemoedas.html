@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="ConversordeMoedas.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores
+        </p>
+        <label for="moeda">Insira o valor em real abaixo para converter</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()">Converter para dolár</button>
+        <button type="submit" onclick="ConverterParaBitcoin()">Converter para Bitcoin</button>
+        <button type="submit" onclick="ConverterparaEuro()"> Converter para Euro</button>
+        <img src="https://i.postimg.cc/xdssFP4p/3487356-dinheiro-saco-dinheiro-moedas-dinheiro-e-relogio-icone-pagamento-desenho-tempo-e-dinheiro-fu.png">
+        <h2 id="valorConvertido"></h2>
+        <h2 id="valorConvertidoParaBitcoin"></h2>
+        <h2 id="valorConverterparaEuro"></h2>
+        </div>
+        <script src="conversordemoedas.js"></script>
+</body>
+<footer> Desenvolvido por Polyana Laier </footer>
+</html>
